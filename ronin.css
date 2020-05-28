@@ -1,0 +1,24 @@
+#main {
+  height: 800px;
+  width: 100% ;
+  background-size: cover;
+  background-image: url("splash.jpg");
+  background-attachment: fixed;
+}
+
+#title {
+  text-align: center;
+  color : white ;
+}
+
+#menu {
+  color: black;
+  text-align: right;
+  position: relative;
+  }
+#menu:hover {
+    color:cyan;
+  }
+svg:hover #star {
+  transform: translateX(300);
+}
